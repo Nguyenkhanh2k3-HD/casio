@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="history">
+            <h2>Lịch Sử Phép Tính:</h2>
+            <table id="historyTable">
+                <thead>
+                    <tr>
+                        <th>Phép Tính</th>
+                        <th>Kết Quả</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Lịch sử phép tính sẽ được thêm vào đây bằng JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="calculator">
+            <div class="brand">
+                <img src="https://banner2.cleanpng.com/20180714/oc/kisspng-casio-f-91w-g-shock-watch-pro-trek-superdry-5b49cf0e541c94.8745431715315637903445.jpg" alt="Logo Thương Hiệu">
+                <h1>Casio X1000</h1>
+                <p>Đơn giản - Hiệu quả - Thông minh</p>
+            </div>
+
+            <input type="text" id="screen" class="screen" value="0" readonly>
+            <div class="buttons">
+                <button onclick="pressButton('CE')">CE</button>
+                <button onclick="pressButton('←')">←</button>
+                <button onclick="pressButton('%')">%</button>
+                <button onclick="pressButton('+')">+</button>
+                <button onclick="pressButton('7')">7</button>
+                <button onclick="pressButton('8')">8</button>
+                <button onclick="pressButton('9')">9</button>
+                <button onclick="pressButton('-')">-</button>
+                <button onclick="pressButton('4')">4</button>
+                <button onclick="pressButton('5')">5</button>
+                <button onclick="pressButton('6')">6</button>
+                <button onclick="pressButton('X')">X</button>
+                <button onclick="pressButton('1')">1</button>
+                <button onclick="pressButton('2')">2</button>
+                <button onclick="pressButton('3')">3</button>
+                <button onclick="pressButton('/')">/</button>
+                <button onclick="pressButton('0')">0</button>
+                <button onclick="pressButton('+/-')">+/-</button>
+                <button onclick="pressButton('.')">.</button>
+                <button onclick="pressButton('=')">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
